@@ -1,6 +1,15 @@
 html{
     font-family: 'Nunito', sans-serif;
 }
+
+a{
+    text-decoration: none;
+    color: #F90300;
+}
+
+td{
+    border: solid black 1px;
+}
 .container{
     background: #fc4a1a;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #fc4a1a, #f7b733);  /* Chrome 10-25, Safari 5.1-6 */
@@ -20,14 +29,23 @@ html{
     height: 100%;
     background-color: white;
 }
+
+.title{
+    text-transform: uppercase;
+}
+
 .red{
     height: 200px;
     width: 100px;
     background-color: red;
 }
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 300;
+}
+
 #boton-pago{
     background-color: yellow;
 }
-td{
-    border: solid black 1px;
-}
+
