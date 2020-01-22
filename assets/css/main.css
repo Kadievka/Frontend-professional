@@ -1,7 +1,7 @@
-th{
-    background: #6a3093; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6a3093, #a044ff); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6a3093, #a044ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.container{
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .red{
     height: 200px;
