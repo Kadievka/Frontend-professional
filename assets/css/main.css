@@ -7,9 +7,6 @@ a{
     color: #F90300;
 }
 
-td{
-    border: solid black 1px;
-}
 .container{
     background: #fc4a1a;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #fc4a1a, #f7b733);  /* Chrome 10-25, Safari 5.1-6 */
@@ -43,6 +40,29 @@ td{
 .paragraph{
     line-height: 1.8em;
     font-weight: 300;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+    border: none;
+}
+
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+
+.table tr:nth-child(odd){
+
+}
+
+.table tr:nth-child(even){
+    background-color: #f7f5a3;
+}
+
+.fa-star{
+    color: #ffc400;
 }
 
 #boton-pago{
