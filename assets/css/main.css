@@ -43,6 +43,23 @@ a:active{
     padding: 1.8em;
 }
 
+.content{
+    padding: 1.8em;
+    overflow: scroll;
+}
+td{
+    display: block;
+    width: 100%;
+}
+td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fc4a1a;
+}
+th{
+    display: none;
+}
+
 .actions{
     position: absolute;
     top: 1em;
@@ -84,22 +101,21 @@ a:active{
     margin-right: 0.5em;
 }
 
-@media (max-width: 600px) {
-    .content{
-        padding: 1.8em;
-        overflow: scroll;
+@media (min-width: 900px) { /*min es al menos*/
+    th{
+        display: table-cell;
     }
     td{
-        display: block;
-        width: 100%;
+        width: auto;
+        display: table-cell;
     }
     td:nth-of-type(1){
-        font-size: 1.5em;
-        font-weight: bold;
-        color: #fc4a1a;
+        font-size: 1em;
     }
-    th{
-        display: none;
+    .content{
+        width: 100%;
+        padding: 1.8em;
+        overflow: hidden;
     }
 }
 
