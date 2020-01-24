@@ -9,7 +9,7 @@ links.forEach(function (link) {
         content.classList.add("animated");
 
         setTimeout(function () {
-            location.href = "../../";
+            location.href = "https://kadievka.github.io/Frontend-professional/";
         }, 600);
 
         return false;
